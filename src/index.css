@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); 
+
+*{
+  font-family: 'Poppins', sans-serif; 
+  color: black;
+}
+
+.logoimage{
+  max-width: 15px;
+  max-height: 15px;
+
+}
+
+.cleaningimage{
+  max-width: 500px;
+  max-height: 700px;
+  margin-right: 20px;
+}
+
+.googleIcon{
+  max-width: 20px;
+  max-height: 20px;
+  align-items: center;
+}
+
+.forgot a{
+  margin-left: 60px;
+}
+
+.logoimage{
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.form-control{
+width: 320px !important;
+}
+
+
+
+
+/* .boxy{
+  display: inline-block;
+} */
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: #ececec;
+}
+/*------------ Login container ------------*/
+.box-area{
+  width: 930px;
+}
+/*------------ Right box ------------*/
+.right-box{
+  padding: 40px 30px 40px 40px;
+}
+/*------------ Custom Placeholder ------------*/
+::placeholder{
+  font-size: 16px;
+}
+.rounded-4{
+  border-radius: 20px;
+}
+.rounded-5{
+  border-radius: 30px;
+}
+/*------------ For small screens------------*/
+@media only screen and (max-width: 768px){
+   .box-area{
+      margin: 0 10px;
+   }
+   .left-box{
+      height: 100px;
+      overflow: hidden;
+   }
+   .right-box{
+      padding: 20px;
+   }
+}
