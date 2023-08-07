@@ -36,8 +36,85 @@
 width: 320px !important;
 }
 
+/* sidebar */
+.logoimage{
+  margin-bottom: 10px;
+}
 
+.sidebaricons{
+  max-width: 20px;
+  max-height: 20px;
+  display: inline-block;
+  margin-left: 20px;
+}
+.sidebarTitles{
+  font-size: medium;
+  text-decoration: none;
+  display: inline-block;
+  margin: 8px;
+  color: black;
+  box-sizing: border-box;
+}
 
+.settings-title{
+  margin-top: 280px;
+}
+
+.slide{
+  position: absolute;
+  background-color: #F3F4F6;
+  height: 100%;
+  width: 250px;
+  transition: 0.5s ease-out;
+}
+
+.sidebar input{
+  display: none;
+  visibility: hidden;
+}
+
+.logo{
+  /* display: inline-block; */
+}
+
+.toggle{
+  
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 20px;
+  left: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.toggle .common{
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  background-color: #5fa4ff58;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.toggle .top_line{
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.toggle .middle_line{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.toggle .bottom_line{
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 
 /* .boxy{
   display: inline-block;
