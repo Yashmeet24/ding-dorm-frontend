@@ -3,6 +3,7 @@
 *{
   font-family: 'Poppins', sans-serif; 
   color: black;
+  background-color: #F3F4F6;
 }
 
 .logoimage{
@@ -53,7 +54,13 @@ width: 320px !important;
   display: inline-block;
   margin: 8px;
   color: black;
-  box-sizing: border-box;
+  border: none;
+}
+
+.sidebar .pages:hover{
+  border: 1px solid transparent;
+  background-color: #d4d3d3a7; 
+  border-radius: 20px;
 }
 
 .settings-title{
@@ -73,11 +80,25 @@ width: 320px !important;
   visibility: hidden;
 }
 
-.logo{
-  /* display: inline-block; */
+.sidebar .logo{
+  height: 60px;
+  width: 200px;
 }
 
-.toggle{
+
+/* navbar */
+.navbar .header{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: x-large;
+  font-weight: 580;
+}
+
+.navbar{
+  margin-left: 250px;
+}
+
+/* .toggle{
   
   position: absolute;
   height: 30px;
@@ -114,7 +135,7 @@ width: 320px !important;
   top: 70%;
   left: 50%;
   transform: translate(-50%,-50%);
-}
+} */
 
 /* .boxy{
   display: inline-block;

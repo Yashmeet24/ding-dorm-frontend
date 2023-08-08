@@ -28,7 +28,7 @@ const LoginPage = () => {
                         <p className="mb-3">Please enter your details</p>
                     </div>
                     <div className="body">
-                        <form action="/dingdorm/dashboard">
+                        <form action="/dashboard">
                             <label>
                             <div className="input-group mb-3 ">
                                  <input type="text" className="email form-control form-control-lg bg-light fs-6 " placeholder="Email address"/>
