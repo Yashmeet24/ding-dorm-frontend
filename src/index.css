@@ -1,48 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
-*{
-  font-family: 'Poppins', sans-serif; 
+* {
+  font-family: "Poppins", sans-serif;
   color: black;
-  background-color: #F3F4F6;
+  background-color: #f3f4f6;
 }
 
-.logoimage{
+.logoimage {
   max-width: 15px;
   max-height: 15px;
-
 }
 
-.cleaningimage{
+.cleaningimage {
   max-width: 500px;
   max-height: 700px;
   margin-right: 20px;
 }
 
-.googleIcon{
+.googleIcon {
   max-width: 20px;
   max-height: 20px;
   align-items: center;
 }
 
-.forgot a{
+.forgot a {
   margin-left: 60px;
 }
 
-.logoimage{
+.logoimage {
   max-width: 100px;
   max-height: 100px;
 }
 
-.form-control{
-width: 320px !important;
+.form-control {
+  width: 320px !important;
 }
 
 /* sidebar */
-.logoimage{
+.sidebar{
+  height: 100%;
+   top: 0;
+   left: 0;
+   position: fixed;
+}
+
+.slide {
+  position: relative;
+  /* background-color: #F3F4F6; */
+  height: 100%;
+  width: 250px;
+  transition: 0.5s ease-out;  
+}
+
+.sidebar .logo {
+  height: 60px;
+  width: 200px;
+}
+
+.logoimage {
   margin-bottom: 10px;
 }
 
-.sidebaricons{
+.sidebaricons {
   max-width: 20px;
   max-height: 20px;
   display: inline-block;
@@ -51,73 +70,56 @@ width: 320px !important;
   margin-right: 10px;
 }
 
-.sidebarTitles{
+.pages {
+  display: flex;
+}
+
+
+.sidebarTitles {
   font-size: medium;
   text-decoration: none;
-  display: inline-block;
   margin: 2px;
   color: black;
   border: none;
   background-color: inherit;
   width: 100%;
   height: 45px;
+  text-align: left;
 }
-
-.sidebar .pages :focus{
-  background-color: #8fbcf6c8;
-  border-radius: 20px;
- 
-}
-
-.sidebar .pages :hover{
+.sidebarTitles:hover{
   border: 1px solid transparent;
-  background-color: #d4d3d3a7; 
+  background-color: #d4d3d3a7;
   border-radius: 20px;
   cursor: pointer;
-  
+}
+.activePage {
+  background-color: #8fbcf6c8;
+  border-radius: 20px;
 }
 
-.logout{
-  margin-left: 10px;
-}
-
-.settings{
-  margin-top: 280px;
-}
-
-.slide{
+.bottomButtons{
   position: absolute;
-  /* background-color: #F3F4F6; */
-  height: 100%;
-  width: 250px;
-  transition: 0.5s ease-out;
-}
-
-.sidebar .logo{
-  height: 60px;
-  width: 200px;
+  bottom: 20px;
 }
 
 
 /* navbar */
-.navbar .header{
+.navbar .header {
   margin-left: 20px;
   margin-top: 20px;
   font-size: x-large;
   font-weight: 580;
 }
 
-.navbar{
+.navbar {
   margin-left: 250px;
 }
 
 /* mainpage */
-.main{
+.main {
   margin-left: 300px;
   margin-top: 30px;
 }
-
-
 
 /* .toggle{
   
@@ -162,38 +164,38 @@ width: 320px !important;
   display: inline-block;
 } */
 
-body{
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
   background: #ececec;
 }
 /*------------ Login container ------------*/
-.box-area{
+.box-area {
   width: 930px;
 }
 /*------------ Right box ------------*/
-.right-box{
+.right-box {
   padding: 40px 30px 40px 40px;
 }
 /*------------ Custom Placeholder ------------*/
-::placeholder{
+::placeholder {
   font-size: 16px;
 }
-.rounded-4{
+.rounded-4 {
   border-radius: 20px;
 }
-.rounded-5{
+.rounded-5 {
   border-radius: 30px;
 }
 /*------------ For small screens------------*/
-@media only screen and (max-width: 768px){
-   .box-area{
-      margin: 0 10px;
-   }
-   .left-box{
-      height: 100px;
-      overflow: hidden;
-   }
-   .right-box{
-      padding: 20px;
-   }
+@media only screen and (max-width: 768px) {
+  .box-area {
+    margin: 0 10px;
+  }
+  .left-box {
+    height: 100px;
+    overflow: hidden;
+  }
+  .right-box {
+    padding: 20px;
+  }
 }

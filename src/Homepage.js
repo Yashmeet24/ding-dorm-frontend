@@ -8,7 +8,7 @@ const Homepage = () => {
 
     return ( 
         <div className="homepage">
-            <Sidebar setHeading={setHeading}/>
+            <Sidebar setHeading={setHeading} heading={heading}/>
             <Navbar heading={heading}/>
             <Dashboard/>
         </div>
