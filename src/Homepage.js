@@ -1,16 +1,18 @@
 import Sidebar from "./Sidebar";
 import Navbar  from "./Navbar";
 import * as React from 'react';
-const Home = () => {
+import Dashboard from "./Dashboard";
+const Homepage = () => {
 
     const [heading, setHeading] = React.useState('Dashboard');
 
     return ( 
-        <div className="home">
+        <div className="homepage">
             <Sidebar setHeading={setHeading}/>
             <Navbar heading={heading}/>
+            <Dashboard/>
         </div>
      );
 }
  
-export default Home;
+export default Homepage;

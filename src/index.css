@@ -46,8 +46,11 @@ width: 320px !important;
   max-width: 20px;
   max-height: 20px;
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 10px;
+  background-color: inherit;
+  margin-right: 10px;
 }
+
 .sidebarTitles{
   font-size: medium;
   text-decoration: none;
@@ -55,29 +58,31 @@ width: 320px !important;
   margin: 8px;
   color: black;
   border: none;
+  background-color: inherit;
 }
+
 
 .sidebar .pages:hover{
   border: 1px solid transparent;
   background-color: #d4d3d3a7; 
   border-radius: 20px;
+  cursor: pointer;
 }
 
-.settings-title{
+.logout{
+  margin-left: 10px;
+}
+
+.settings{
   margin-top: 280px;
 }
 
 .slide{
   position: absolute;
-  background-color: #F3F4F6;
+  /* background-color: #F3F4F6; */
   height: 100%;
   width: 250px;
   transition: 0.5s ease-out;
-}
-
-.sidebar input{
-  display: none;
-  visibility: hidden;
 }
 
 .sidebar .logo{
@@ -96,6 +101,12 @@ width: 320px !important;
 
 .navbar{
   margin-left: 250px;
+}
+
+/* mainpage */
+.main{
+  margin-left: 300px;
+  margin-top: 30px;
 }
 
 /* .toggle{
